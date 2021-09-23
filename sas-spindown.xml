@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/doron1/unraid-sas-spindown/master/sas-spindown.plg</PluginURL>
+<PluginAuthor>doron</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System Drivers:</Category>
+<Name>SAS Spindown</Name>
+<Description>
+Spin down idle SAS drives the same way SATA drives are spun down.
+If you have SAS spinning drives in your array, you may have noticed that Unraid, 
+while asserting that they have been spun down, does not in fact spin them down 
+(true at least up until version 6.8.3).
+This plugin attempts to ensure that SAS drives spin down and up in sync with Unraid
+schedule (i.e. same as SATA drives).
+</Description>
+<Date>2020-09-26</Date>
+<Icon>https://github.com/doron1/unraid-sas-spindown/raw/master/SAS96.png</Icon>
+</Containers>
